@@ -12,14 +12,7 @@ int getSum(int X[],int n){
     }
     return sum;
 }
-int getTarget(int A[], int n, int B[], int m)
-{
-    int sum1=getSum(A,n);
-    int sum2=getSum(B,m);
-     if ((sum1 - sum2) % 2 != 0) 
-        return 0; 
-    return ((sum1 - sum2) / 2); 
-}
+
 class Solution{
 
 	public:
