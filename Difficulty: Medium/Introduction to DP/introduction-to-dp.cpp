@@ -30,7 +30,7 @@ class Solution {
          if (n <= 1) {
             return n;
         }
-        vector<long long int> dp(n + 1);
+        //vector<long long int> dp(n + 1);
         int prev1 = 0;
         int prev2 = 1;
         int curri=0;
